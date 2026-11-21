@@ -45,9 +45,10 @@ Tested on Delhi data from the Kaggle dataset, using the newest 20% of rows as th
 
 Random Forest performed best. MAE and RMSE are in AQI units, and lower is better.
 
-![Predicted vs actual AQI](results/predicted_vs_actual.png)
+![Predicted vs actual AQI](predicted_vs_actual.png)
 
-![Feature importance](results/feature_importance.png)
+![Feature importance](feature_importance.png)
+
 
 ## Next steps
 
