@@ -60,3 +60,8 @@ Random Forest performed best. MAE and RMSE are in AQI units, and lower is better
 ## Tech
 
 Python, pandas, scikit-learn, matplotlib
+
+## What I learned
+- Why a time-based split matters for forecasting: training on the oldest 80% and testing on the newest 20% avoids the model learning from the future.
+- That AQI is calculated from the pollutant readings, so predicting it from them is partly relearning a formula; the next step is lag features and weather variables to forecast future days.
+- How Random Forest, Gradient Boosting and Linear Regression compare on the same data, and how to read MAE, RMSE and R².
